@@ -1,0 +1,6 @@
+{
+  "name": "SupportFlow",
+  "description": "SupportFlow - A practical Business Operations Analyst agent with operational metrics, SLA tracking, staffing scenario modeling, and automated improvement briefs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

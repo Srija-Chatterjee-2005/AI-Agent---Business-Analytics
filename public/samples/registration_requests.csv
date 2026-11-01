@@ -1,0 +1,152 @@
+request_id,student_id,student_name,term,course_code,course_name,credits,submission_time,status,hold_flag,prerequisite_met,waitlist_position,advisor_approved,processing_seconds,error_code
+REQ-1001,STU-4821,Emma Johnson,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 09:12:14,Approved,N,Y,,Y,45,
+REQ-1002,STU-3392,Liam Smith,Fall 2026,MATH-201,Calculus II,4,2026-08-15 09:14:02,Approved,N,Y,,Y,38,
+REQ-1003,STU-9102,Sophia Garcia,Fall 2026,BIO-110,General Biology,3,2026-08-15 09:15:33,Rejected,Y,Y,,N,120,FIN_HOLD_BURSAR
+REQ-1004,STU-2049,Noah Miller,Fall 2026,CS-210,Data Structures,4,2026-08-15 09:18:20,Waitlisted,N,Y,4,Y,82,
+REQ-1005,STU-8831,Olivia Davis,Fall 2026,ENG-102,College Writing II,3,2026-08-15 09:21:45,Approved,N,Y,,Y,41,
+REQ-1006,STU-5520,James Wilson,Fall 2026,CS-340,Operating Systems,4,2026-08-15 09:25:10,Rejected,N,N,,N,65,PREREQ_NOT_SATISFIED
+REQ-1007,STU-7741,Ava Taylor,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 09:30:18,Approved,N,Y,,Y,35,
+REQ-1008,STU-1193,Lucas Anderson,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 09:32:44,Pending Advisor,N,Y,,Pending,310,ADVISOR_APPROVAL_REQD
+REQ-1009,STU-6602,Mia Thomas,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 09:35:12,Approved,N,Y,,Y,52,
+REQ-1010,STU-4411,Benjamin Jackson,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 09:39:50,Approved,N,Y,,Y,44,
+REQ-1011,STU-9923,Charlotte White,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 09:42:01,Approved,N,Y,,Y,29,
+REQ-1012,STU-3310,William Harris,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 09:45:19,System Error,N,Y,,N,450,TIMEOUT_SIS_BRIDGE
+REQ-1013,STU-7729,Amelia Martin,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 09:48:33,Approved,N,Y,,Y,36,
+REQ-1014,STU-5501,Henry Thompson,Fall 2026,MATH-201,Calculus II,4,2026-08-15 09:51:10,Waitlisted,N,Y,12,Y,95,
+REQ-1015,STU-2234,Evelyn Martinez,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 09:54:27,Approved,N,Y,,Y,31,
+REQ-1016,STU-8812,Alexander Robinson,Fall 2026,CS-210,Data Structures,4,2026-08-15 09:58:05,Approved,N,Y,,Y,50,
+REQ-1017,STU-3349,Harper Clark,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 10:02:18,Approved,N,Y,,Y,33,
+REQ-1018,STU-7711,Daniel Rodriguez,Fall 2026,BIO-110,General Biology,3,2026-08-15 10:05:40,Rejected,Y,Y,,N,115,FIN_HOLD_BURSAR
+REQ-1019,STU-9940,Ella Lewis,Fall 2026,CS-340,Operating Systems,4,2026-08-15 10:09:12,Approved,N,Y,,Y,58,
+REQ-1020,STU-1122,Matthew Lee,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 10:12:30,Approved,N,Y,,Y,28,
+REQ-1021,STU-6634,Abigail Walker,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 10:15:44,Waitlisted,N,Y,2,Y,78,
+REQ-1022,STU-4456,Jackson Hall,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 10:20:19,Pending Advisor,N,Y,,Pending,290,ADVISOR_APPROVAL_REQD
+REQ-1023,STU-8890,Scarlett Allen,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 10:24:55,Approved,N,Y,,Y,42,
+REQ-1024,STU-2219,Sebastian Young,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 10:28:10,Rejected,N,N,,N,70,PREREQ_NOT_SATISFIED
+REQ-1025,STU-7733,Emily Hernandez,Fall 2026,ENG-102,College Writing II,3,2026-08-15 10:32:04,Approved,N,Y,,Y,34,
+REQ-1026,STU-9901,Aiden King,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 10:35:40,Approved,N,Y,,Y,39,
+REQ-1027,STU-3377,Chloe Wright,Fall 2026,CS-210,Data Structures,4,2026-08-15 10:40:12,System Error,N,Y,,N,480,TIMEOUT_SIS_BRIDGE
+REQ-1028,STU-5544,Samuel Lopez,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 10:44:22,Approved,N,Y,,Y,27,
+REQ-1029,STU-1188,Grace Hill,Fall 2026,MATH-201,Calculus II,4,2026-08-15 10:48:50,Approved,N,Y,,Y,46,
+REQ-1030,STU-6677,Joseph Scott,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 10:52:15,Waitlisted,N,Y,7,Y,88,
+REQ-1031,STU-4402,Zoe Green,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 10:56:01,Pending Advisor,N,Y,,Pending,320,ADVISOR_APPROVAL_REQD
+REQ-1032,STU-8866,David Adams,Fall 2026,BIO-110,General Biology,3,2026-08-15 11:00:30,Approved,N,Y,,Y,43,
+REQ-1033,STU-2288,Penelope Baker,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 11:04:14,Approved,N,Y,,Y,35,
+REQ-1034,STU-7755,Carter Gonzalez,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 11:08:42,Rejected,Y,Y,,N,118,FIN_HOLD_BURSAR
+REQ-1035,STU-9966,Riley Nelson,Fall 2026,ENG-102,College Writing II,3,2026-08-15 11:12:09,Approved,N,Y,,Y,32,
+REQ-1036,STU-3322,Owen Carter,Fall 2026,CS-340,Operating Systems,4,2026-08-15 11:16:33,Waitlisted,N,Y,9,Y,92,
+REQ-1037,STU-5599,Victoria Mitchell,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 11:20:18,Approved,N,Y,,Y,26,
+REQ-1038,STU-1144,Wyatt Perez,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 11:24:50,Approved,N,Y,,Y,48,
+REQ-1039,STU-6655,Lillian Roberts,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 11:28:12,Approved,N,Y,,Y,30,
+REQ-1040,STU-4488,John Turner,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 11:32:45,Rejected,N,N,,N,66,PREREQ_NOT_SATISFIED
+REQ-1041,STU-8822,Nora Phillips,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 11:36:20,Approved,N,Y,,Y,37,
+REQ-1042,STU-2255,Luke Campbell,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 11:40:11,Approved,N,Y,,Y,54,
+REQ-1043,STU-7788,Hazel Parker,Fall 2026,CS-210,Data Structures,4,2026-08-15 11:45:00,Pending Advisor,N,Y,,Pending,305,ADVISOR_APPROVAL_REQD
+REQ-1044,STU-9911,Gabriel Evans,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 11:48:30,Approved,N,Y,,Y,29,
+REQ-1045,STU-3366,Stella Edwards,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 11:52:10,Approved,N,Y,,Y,36,
+REQ-1046,STU-5577,Anthony Collins,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 11:56:45,Waitlisted,N,Y,3,Y,80,
+REQ-1047,STU-1166,Aurora Stewart,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 12:00:20,Approved,N,Y,,Y,28,
+REQ-1048,STU-6699,Isaac Sanchez,Fall 2026,MATH-201,Calculus II,4,2026-08-15 12:04:15,System Error,N,Y,,N,510,TIMEOUT_SIS_BRIDGE
+REQ-1049,STU-4433,Savannah Morris,Fall 2026,BIO-110,General Biology,3,2026-08-15 12:08:40,Approved,N,Y,,Y,40,
+REQ-1050,STU-8855,Julian Rogers,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 12:12:05,Approved,N,Y,,Y,51,
+REQ-1051,STU-2277,Audrey Reed,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 12:16:30,Approved,N,Y,,Y,33,
+REQ-1052,STU-7700,Dylan Cook,Fall 2026,ENG-102,College Writing II,3,2026-08-15 12:20:10,Rejected,Y,Y,,N,125,FIN_HOLD_BURSAR
+REQ-1053,STU-9988,Brooklyn Morgan,Fall 2026,CS-340,Operating Systems,4,2026-08-15 12:24:55,Approved,N,Y,,Y,62,
+REQ-1054,STU-3388,Lincoln Bell,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 12:28:40,Approved,N,Y,,Y,34,
+REQ-1055,STU-5511,Bella Murphy,Fall 2026,CS-210,Data Structures,4,2026-08-15 12:32:15,Waitlisted,N,Y,11,Y,91,
+REQ-1056,STU-1133,Christopher Bailey,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 12:36:02,Approved,N,Y,,Y,25,
+REQ-1057,STU-6622,Claire Rivera,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 12:40:20,Pending Advisor,N,Y,,Pending,280,ADVISOR_APPROVAL_REQD
+REQ-1058,STU-4477,Joshua Cooper,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 12:44:50,Approved,N,Y,,Y,56,
+REQ-1059,STU-8800,Skylar Richardson,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 12:48:15,Approved,N,Y,,Y,31,
+REQ-1060,STU-2200,Nathan Cox,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 12:52:33,Approved,N,Y,,Y,49,
+REQ-1061,STU-7766,Lucy Howard,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 12:56:40,Approved,N,Y,,Y,45,
+REQ-1062,STU-9933,Caleb Ward,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 13:00:15,Rejected,N,N,,N,68,PREREQ_NOT_SATISFIED
+REQ-1063,STU-3355,Paisley Torres,Fall 2026,BIO-110,General Biology,3,2026-08-15 13:04:22,Approved,N,Y,,Y,39,
+REQ-1064,STU-5588,Ryan Peterson,Fall 2026,MATH-201,Calculus II,4,2026-08-15 13:08:50,Waitlisted,N,Y,5,Y,84,
+REQ-1065,STU-1177,Everly Gray,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 13:12:30,Approved,N,Y,,Y,30,
+REQ-1066,STU-6688,Hunter Ramirez,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 13:16:45,Approved,N,Y,,Y,53,
+REQ-1067,STU-4466,Anna James,Fall 2026,ENG-102,College Writing II,3,2026-08-15 13:20:10,Approved,N,Y,,Y,33,
+REQ-1068,STU-8844,Christian Watson,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 13:24:25,Approved,N,Y,,Y,38,
+REQ-1069,STU-2266,Caroline Brooks,Fall 2026,CS-210,Data Structures,4,2026-08-15 13:28:40,System Error,N,Y,,N,460,TIMEOUT_SIS_BRIDGE
+REQ-1070,STU-7799,Jonathan Kelly,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 13:32:15,Rejected,Y,Y,,N,130,FIN_HOLD_BURSAR
+REQ-1071,STU-9955,Nova Sanders,Fall 2026,CS-340,Operating Systems,4,2026-08-15 13:36:50,Approved,N,Y,,Y,59,
+REQ-1072,STU-3300,Levi Price,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 13:40:12,Approved,N,Y,,Y,27,
+REQ-1073,STU-5533,Genesis Bennett,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 13:44:35,Pending Advisor,N,Y,,Pending,315,ADVISOR_APPROVAL_REQD
+REQ-1074,STU-1155,Aaron Wood,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 13:48:20,Approved,N,Y,,Y,28,
+REQ-1075,STU-6644,Emilia Barnes,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 13:52:45,Waitlisted,N,Y,8,Y,87,
+REQ-1076,STU-4422,Charles Ross,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 13:56:10,Approved,N,Y,,Y,51,
+REQ-1077,STU-8877,Kennedy Henderson,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 14:00:25,Approved,N,Y,,Y,32,
+REQ-1078,STU-2244,Thomas Coleman,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 14:04:40,Rejected,N,N,,N,72,PREREQ_NOT_SATISFIED
+REQ-1079,STU-7777,Samantha Jenkins,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 14:08:15,Approved,N,Y,,Y,35,
+REQ-1080,STU-9977,Eli Perry,Fall 2026,CS-210,Data Structures,4,2026-08-15 14:12:30,Approved,N,Y,,Y,47,
+REQ-1081,STU-3333,Maya Powell,Fall 2026,BIO-110,General Biology,3,2026-08-15 14:16:05,Approved,N,Y,,Y,41,
+REQ-1082,STU-5566,Landon Long,Fall 2026,ENG-102,College Writing II,3,2026-08-15 14:20:45,Approved,N,Y,,Y,34,
+REQ-1083,STU-1111,Willow Patterson,Fall 2026,MATH-201,Calculus II,4,2026-08-15 14:24:10,Waitlisted,N,Y,1,Y,76,
+REQ-1084,STU-6611,Connor Hughes,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 14:28:35,System Error,N,Y,,N,495,TIMEOUT_SIS_BRIDGE
+REQ-1085,STU-4499,Kinsley Flores,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 14:32:00,Approved,N,Y,,Y,36,
+REQ-1086,STU-8888,Adrian Washington,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 14:36:20,Approved,N,Y,,Y,38,
+REQ-1087,STU-2222,Naomi Butler,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 14:40:45,Approved,N,Y,,Y,30,
+REQ-1088,STU-7734,Jeremiah Simmons,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 14:44:10,Approved,N,Y,,Y,44,
+REQ-1089,STU-9944,Aaliyah Foster,Fall 2026,CS-340,Operating Systems,4,2026-08-15 14:48:30,Pending Advisor,N,Y,,Pending,330,ADVISOR_APPROVAL_REQD
+REQ-1090,STU-3344,Colton Gonzales,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 14:52:15,Approved,N,Y,,Y,29,
+REQ-1091,STU-5555,Elena Bryant,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 14:56:40,Rejected,Y,Y,,N,122,FIN_HOLD_BURSAR
+REQ-1092,STU-1123,Cameron Alexander,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 15:00:20,Approved,N,Y,,Y,49,
+REQ-1093,STU-6633,Sarah Russell,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 15:04:35,Approved,N,Y,,Y,53,
+REQ-1094,STU-4412,Carson Griffin,Fall 2026,CS-210,Data Structures,4,2026-08-15 15:08:50,Waitlisted,N,Y,6,Y,85,
+REQ-1095,STU-8833,Allison Diaz,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 15:12:15,Approved,N,Y,,Y,27,
+REQ-1096,STU-2256,Angel Hayes,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 15:16:40,Approved,N,Y,,Y,50,
+REQ-1097,STU-7712,Hailey Myers,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 15:20:05,Approved,N,Y,,Y,31,
+REQ-1098,STU-9902,Robert Ford,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 15:24:30,Rejected,N,N,,N,64,PREREQ_NOT_SATISFIED
+REQ-1099,STU-3378,Autumn Hamilton,Fall 2026,BIO-110,General Biology,3,2026-08-15 15:28:15,Approved,N,Y,,Y,42,
+REQ-1100,STU-5545,Miles Graham,Fall 2026,ENG-102,College Writing II,3,2026-08-15 15:32:40,Approved,N,Y,,Y,35,
+REQ-1101,STU-1189,Quinn Sullivan,Fall 2026,MATH-201,Calculus II,4,2026-08-15 15:36:20,Approved,N,Y,,Y,43,
+REQ-1102,STU-6678,Leo Wallace,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 15:40:45,Pending Advisor,N,Y,,Pending,340,ADVISOR_APPROVAL_REQD
+REQ-1103,STU-4403,Eva Woods,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 15:44:10,Approved,N,Y,,Y,36,
+REQ-1104,STU-8867,Axel Cole,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 15:48:30,Approved,N,Y,,Y,37,
+REQ-1105,STU-2289,Sadie West,Fall 2026,CS-340,Operating Systems,4,2026-08-15 15:52:15,Waitlisted,N,Y,10,Y,94,
+REQ-1106,STU-7756,Leonardo Jordan,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 15:56:40,System Error,N,Y,,N,520,TIMEOUT_SIS_BRIDGE
+REQ-1107,STU-9967,Piper Owens,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 16:00:20,Approved,N,Y,,Y,31,
+REQ-1108,STU-3323,Mateo Reynolds,Fall 2026,CS-210,Data Structures,4,2026-08-15 16:04:45,Approved,N,Y,,Y,48,
+REQ-1109,STU-5590,Ruby Fisher,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 16:08:10,Approved,N,Y,,Y,28,
+REQ-1110,STU-1145,Elias Ellis,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 16:12:35,Approved,N,Y,,Y,41,
+REQ-1111,STU-6656,Serenity Harrison,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 16:16:00,Rejected,Y,Y,,N,119,FIN_HOLD_BURSAR
+REQ-1112,STU-4489,Roman Gibson,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 16:20:25,Approved,N,Y,,Y,55,
+REQ-1113,STU-8823,Alice Mcdonald,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 16:24:10,Approved,N,Y,,Y,26,
+REQ-1114,STU-2257,Kayden Cruz,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 16:28:30,Pending Advisor,N,Y,,Pending,295,ADVISOR_APPROVAL_REQD
+REQ-1115,STU-7789,Cora Marshall,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 16:32:15,Approved,N,Y,,Y,30,
+REQ-1116,STU-9912,Declan Ortiz,Fall 2026,ENG-102,College Writing II,3,2026-08-15 16:36:40,Approved,N,Y,,Y,33,
+REQ-1117,STU-3367,Kylie Gomez,Fall 2026,BIO-110,General Biology,3,2026-08-15 16:40:05,Approved,N,Y,,Y,40,
+REQ-1118,STU-5578,Micah Murray,Fall 2026,CS-210,Data Structures,4,2026-08-15 16:44:30,Rejected,N,N,,N,67,PREREQ_NOT_SATISFIED
+REQ-1119,STU-1167,Delilah Freeman,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 16:48:15,Approved,N,Y,,Y,35,
+REQ-1120,STU-6690,Weston Wells,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 16:52:40,Approved,N,Y,,Y,52,
+REQ-1120,STU-6690,Weston Wells,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 16:52:40,Approved,N,Y,,Y,52,
+REQ-1121,STU-4434,Clara Webb,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 16:56:05,Approved,N,Y,,Y,37,
+REQ-1122,STU-8856,Silas Simpson,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 17:00:30,Waitlisted,N,Y,15,Y,98,
+REQ-1123,STU-2278,Vivian Stevens,Fall 2026,MATH-201,Calculus II,4,2026-08-15 17:04:15,Approved,N,Y,,Y,44,
+REQ-1124,STU-7701,Harrison Tucker,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 17:08:40,Approved,N,Y,,Y,43,
+REQ-1125,STU-9989,Madeline Porter,Fall 2026,CS-340,Operating Systems,4,2026-08-15 17:12:05,System Error,N,Y,,N,475,TIMEOUT_SIS_BRIDGE
+REQ-1126,STU-3389,Theodore Hunter,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 17:16:30,Approved,N,Y,,Y,29,
+REQ-1127,STU-5512,Eliana Hicks,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 17:20:15,Approved,N,Y,,Y,32,
+REQ-1128,STU-1134,Arthur Crawford,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 17:24:40,Rejected,Y,Y,,N,128,FIN_HOLD_BURSAR
+REQ-1129,STU-6623,Isla Henry,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 17:28:05,Approved,N,Y,,Y,27,
+REQ-1130,STU-4478,Waylon Boyd,Fall 2026,CS-210,Data Structures,4,2026-08-15 17:32:30,Approved,N,Y,,Y,49,
+REQ-1131,STU-8801,Athena Mason,Fall 2026,MATH-301,Linear Algebra,3,2026-08-15 17:36:15,Pending Advisor,N,Y,,Pending,300,ADVISOR_APPROVAL_REQD
+REQ-1132,STU-2201,Kai Morales,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 17:40:40,Approved,N,Y,,Y,30,
+REQ-1133,STU-7767,Emerson Kennedy,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 17:44:05,Approved,N,Y,,Y,51,
+REQ-1134,STU-9934,Gavin Warren,Fall 2026,ECON-101,Microeconomics,3,2026-08-15 17:48:30,Approved,N,Y,,Y,36,
+REQ-1135,STU-3356,Leilani Dixon,Fall 2026,ENG-102,College Writing II,3,2026-08-15 17:52:15,Approved,N,Y,,Y,34,
+REQ-1136,STU-5589,Bentley Ramos,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 17:56:40,Waitlisted,N,Y,7,Y,86,
+REQ-1137,STU-1178,Amara Reyes,Fall 2026,BIO-110,General Biology,3,2026-08-15 18:00:20,Approved,N,Y,,Y,41,
+REQ-1138,STU-6689,Braxton Burns,Fall 2026,CS-450,Cloud Architecture,3,2026-08-15 18:04:45,Rejected,N,N,,N,69,PREREQ_NOT_SATISFIED
+REQ-1139,STU-4467,Ivy Gordon,Fall 2026,STAT-200,Elementary Statistics,3,2026-08-15 18:08:10,Approved,N,Y,,Y,35,
+REQ-1140,STU-8845,Gael Shaw,Fall 2026,BUS-200,Principles of Marketing,3,2026-08-15 18:12:35,Approved,N,Y,,Y,37,
+REQ-1141,STU-2267,Valeria Holmes,Fall 2026,CS-340,Operating Systems,4,2026-08-15 18:16:00,Approved,N,Y,,Y,61,
+REQ-1142,STU-7790,Rowan Rice,Fall 2026,HIST-105,US History to 1877,3,2026-08-15 18:20:25,Approved,N,Y,,Y,28,
+REQ-1143,STU-9956,Finley Robertson,Fall 2026,MATH-201,Calculus II,4,2026-08-15 18:24:50,Approved,N,Y,,Y,45,
+REQ-1144,STU-3301,Kobe Hunt,Fall 2026,PSYC-101,Intro to Psychology,3,2026-08-15 18:28:15,Approved,N,Y,,Y,31,
+REQ-1145,STU-5534,Melody Black,Fall 2026,CS-210,Data Structures,4,2026-08-15 18:32:40,System Error,N,Y,,N,540,TIMEOUT_SIS_BRIDGE
+REQ-1146,STU-1156,Walker Daniels,Fall 2026,CHEM-105,General Chemistry,4,2026-08-15 18:36:05,Approved,N,Y,,Y,54,
+REQ-1147,STU-6645,Adalyn Palmer,Fall 2026,ART-100,Art Appreciation,3,2026-08-15 18:40:30,Approved,N,Y,,Y,26,
+REQ-1148,STU-4423,River Mills,Fall 2026,COMM-101,Public Speaking,3,2026-08-15 18:44:15,Rejected,Y,Y,,N,124,FIN_HOLD_BURSAR
+REQ-1149,STU-8878,Enzo Nichols,Fall 2026,CS-101,Intro to Computer Science,4,2026-08-15 18:48:40,Approved,N,Y,,Y,42,
+REQ-1150,STU-2245,Iris Grant,Fall 2026,PHYS-150,Physics with Calculus,4,2026-08-15 18:52:05,Pending Advisor,N,Y,,Pending,310,ADVISOR_APPROVAL_REQD

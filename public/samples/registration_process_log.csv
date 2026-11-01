@@ -1,0 +1,54 @@
+log_id,request_id,step_name,start_time,end_time,duration_seconds,assigned_role,step_status,remarks
+LOG-2001,REQ-1001,Student Submission,2026-08-15 09:12:14,2026-08-15 09:12:16,2,Student,Success,Online form submitted
+LOG-2002,REQ-1001,Financial Hold Check,2026-08-15 09:12:16,2026-08-15 09:12:19,3,Bursar System,Success,No hold found
+LOG-2003,REQ-1001,Prerequisite Validation,2026-08-15 09:12:19,2026-08-15 09:12:24,5,SIS Engine,Success,Requirements met
+LOG-2004,REQ-1001,Capacity Verification,2026-08-15 09:12:24,2026-08-15 09:12:28,4,SIS Engine,Success,Seat available (28/35)
+LOG-2005,REQ-1001,SIS Enrollment Commit,2026-08-15 09:12:28,2026-08-15 09:12:55,27,Registrar Database,Success,Enrolled successfully
+LOG-2006,REQ-1001,Confirmation Notification,2026-08-15 09:12:55,2026-08-15 09:12:59,4,Notification Gateway,Success,Email and SMS dispatched
+LOG-2007,REQ-1003,Student Submission,2026-08-15 09:15:33,2026-08-15 09:15:35,2,Student,Success,Online form submitted
+LOG-2008,REQ-1003,Financial Hold Check,2026-08-15 09:15:35,2026-08-15 09:17:30,115,Bursar System,Failed,Outstanding balance $1420
+LOG-2009,REQ-1004,Student Submission,2026-08-15 09:18:20,2026-08-15 09:18:22,2,Student,Success,Online form submitted
+LOG-2010,REQ-1004,Financial Hold Check,2026-08-15 09:18:22,2026-08-15 09:18:25,3,Bursar System,Success,No hold found
+LOG-2011,REQ-1004,Prerequisite Validation,2026-08-15 09:18:25,2026-08-15 09:18:30,5,SIS Engine,Success,Requirements met
+LOG-2012,REQ-1004,Capacity Verification,2026-08-15 09:18:30,2026-08-15 09:18:38,8,SIS Engine,Waitlisted,Class full (30/30) - position 4 assigned
+LOG-2013,REQ-1004,Confirmation Notification,2026-08-15 09:18:38,2026-08-15 09:18:42,4,Notification Gateway,Success,Waitlist notification dispatched
+LOG-2014,REQ-1006,Student Submission,2026-08-15 09:25:10,2026-08-15 09:25:12,2,Student,Success,Online form submitted
+LOG-2015,REQ-1006,Financial Hold Check,2026-08-15 09:25:12,2026-08-15 09:25:15,3,Bursar System,Success,No hold found
+LOG-2016,REQ-1006,Prerequisite Validation,2026-08-15 09:25:15,2026-08-15 09:26:12,57,SIS Engine,Failed,CS-210 grade C- or higher required
+LOG-2017,REQ-1008,Student Submission,2026-08-15 09:32:44,2026-08-15 09:32:46,2,Student,Success,Online form submitted
+LOG-2018,REQ-1008,Financial Hold Check,2026-08-15 09:32:46,2026-08-15 09:32:49,3,Bursar System,Success,No hold found
+LOG-2019,REQ-1008,Prerequisite Validation,2026-08-15 09:32:49,2026-08-15 09:32:55,6,SIS Engine,Pending,Needs concurrent calculus waiver
+LOG-2020,REQ-1008,Advisor Review Routing,2026-08-15 09:32:55,2026-08-15 09:37:45,290,Academic Advisor,Pending,Manual queue waiting for advisor review
+LOG-2021,REQ-1012,Student Submission,2026-08-15 09:45:19,2026-08-15 09:45:21,2,Student,Success,Online form submitted
+LOG-2022,REQ-1012,Financial Hold Check,2026-08-15 09:45:21,2026-08-15 09:45:24,3,Bursar System,Success,No hold found
+LOG-2023,REQ-1012,Prerequisite Validation,2026-08-15 09:45:24,2026-08-15 09:45:30,6,SIS Engine,Success,Requirements met
+LOG-2024,REQ-1012,Capacity Verification,2026-08-15 09:45:30,2026-08-15 09:45:34,4,SIS Engine,Success,Seat available (18/25)
+LOG-2025,REQ-1012,SIS Enrollment Commit,2026-08-15 09:45:34,2026-08-15 09:52:45,431,Registrar Database,Timeout,Database connection pool exhausted
+LOG-2026,REQ-1018,Student Submission,2026-08-15 10:05:40,2026-08-15 10:05:42,2,Student,Success,Online form submitted
+LOG-2027,REQ-1018,Financial Hold Check,2026-08-15 10:05:42,2026-08-15 10:07:32,110,Bursar System,Failed,Unpaid lab fees $215
+LOG-2028,REQ-1022,Student Submission,2026-08-15 10:20:19,2026-08-15 10:20:21,2,Student,Success,Online form submitted
+LOG-2029,REQ-1022,Financial Hold Check,2026-08-15 10:20:21,2026-08-15 10:20:24,3,Bursar System,Success,No hold found
+LOG-2030,REQ-1022,Advisor Review Routing,2026-08-15 10:20:24,2026-08-15 10:25:05,281,Academic Advisor,Pending,Overload approval (19 credits)
+LOG-2031,REQ-1027,Student Submission,2026-08-15 10:40:12,2026-08-15 10:40:14,2,Student,Success,Online form submitted
+LOG-2032,REQ-1027,Financial Hold Check,2026-08-15 10:40:14,2026-08-15 10:40:17,3,Bursar System,Success,No hold found
+LOG-2033,REQ-1027,SIS Enrollment Commit,2026-08-15 10:40:17,2026-08-15 10:48:10,473,Registrar Database,Timeout,SIS RPC deadlocked during enrollment
+LOG-2034,REQ-1031,Student Submission,2026-08-15 10:56:01,2026-08-15 10:56:03,2,Student,Success,Online form submitted
+LOG-2035,REQ-1031,Advisor Review Routing,2026-08-15 10:56:03,2026-08-15 11:01:18,315,Academic Advisor,Pending,Senior thesis elective approval
+LOG-2036,REQ-1034,Student Submission,2026-08-15 11:08:42,2026-08-15 11:08:44,2,Student,Success,Online form submitted
+LOG-2037,REQ-1034,Financial Hold Check,2026-08-15 11:08:44,2026-08-15 11:10:38,114,Bursar System,Failed,Immunization & bursar hold
+LOG-2038,REQ-1048,Student Submission,2026-08-15 12:04:15,2026-08-15 12:04:17,2,Student,Success,Online form submitted
+LOG-2039,REQ-1048,SIS Enrollment Commit,2026-08-15 12:04:17,2026-08-15 12:12:44,507,Registrar Database,Timeout,High peak concurrency connection timeout
+LOG-2040,REQ-1052,Student Submission,2026-08-15 12:20:10,2026-08-15 12:20:12,2,Student,Success,Online form submitted
+LOG-2041,REQ-1052,Financial Hold Check,2026-08-15 12:20:12,2026-08-15 12:22:15,123,Bursar System,Failed,Prior semester tuition balance
+LOG-2042,REQ-1057,Student Submission,2026-08-15 12:40:20,2026-08-15 12:40:22,2,Student,Success,Online form submitted
+LOG-2043,REQ-1057,Advisor Review Routing,2026-08-15 12:40:22,2026-08-15 12:44:58,276,Academic Advisor,Pending,Prerequisite waiver evaluation
+LOG-2044,REQ-1069,Student Submission,2026-08-15 13:28:40,2026-08-15 13:28:42,2,Student,Success,Online form submitted
+LOG-2045,REQ-1069,SIS Enrollment Commit,2026-08-15 13:28:42,2026-08-15 13:36:18,456,Registrar Database,Timeout,Socket write timeout to mainframe
+LOG-2046,REQ-1070,Student Submission,2026-08-15 13:32:15,2026-08-15 13:32:17,2,Student,Success,Online form submitted
+LOG-2047,REQ-1070,Financial Hold Check,2026-08-15 13:32:17,2026-08-15 13:34:25,128,Bursar System,Failed,Residence hall damage hold
+LOG-2048,REQ-1084,Student Submission,2026-08-15 14:28:35,2026-08-15 14:28:37,2,Student,Success,Online form submitted
+LOG-2049,REQ-1084,SIS Enrollment Commit,2026-08-15 14:28:37,2026-08-15 14:36:50,493,Registrar Database,Timeout,Connection pool exhausted
+LOG-2050,REQ-1106,Student Submission,2026-08-15 15:56:40,2026-08-15 15:56:42,2,Student,Success,Online form submitted
+LOG-2051,REQ-1106,SIS Enrollment Commit,2026-08-15 15:56:42,2026-08-15 16:05:18,516,Registrar Database,Timeout,SIS locking wait exceeded
+LOG-2052,REQ-1145,Student Submission,2026-08-15 18:32:40,2026-08-15 18:32:42,2,Student,Success,Online form submitted
+LOG-2053,REQ-1145,SIS Enrollment Commit,2026-08-15 18:32:42,2026-08-15 18:41:40,538,Registrar Database,Timeout,Service gateway timeout 504
